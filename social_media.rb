@@ -2,7 +2,7 @@
 require 'twitter'
 require 'json'
 require 'optparse'
-require '~/.social_media.rb'
+require 'config.rb'
 
 options = {}
 
@@ -47,6 +47,7 @@ end
 
 def linked_in(message)
 	puts 'Posting to LinkedIn'
+	
 end
 
 def twitter(message)
